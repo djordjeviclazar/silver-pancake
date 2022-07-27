@@ -1,6 +1,11 @@
 ﻿//Microsoft (R) Visual C# Compiler version 3.4.0-beta4-19562-05 (ff930dec)
 //Copyright (C) Microsoft Corporation. All rights reserved.
 
+/*
+ * Implementation is based on SO answers:
+ * https://stackoverflow.com/questions/38533903/set-c-sharp-console-application-to-unicode-output
+ * https://stackoverflow.com/a/2556329/13448436
+ */
 
 using System;
 using System.Collections.Generic;
@@ -16,6 +21,7 @@ namespace Rextester
         public static void Main(string[] args)
         {
             // Set console:
+            // From SO: https://stackoverflow.com/questions/38533903/set-c-sharp-console-application-to-unicode-output
             Console.OutputEncoding = Encoding.Unicode;
 
             // Converter code:
