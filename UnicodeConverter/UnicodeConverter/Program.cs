@@ -41,8 +41,6 @@ namespace Rextester
                 default:
                     break;
             }
-
-            Console.ReadLine();
         }
 
         static public string Encode(string word, string type)
